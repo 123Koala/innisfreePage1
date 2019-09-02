@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../css/cssreset.css">
+	<link rel="stylesheet" type="text/css" href="../css/add_cart.css">
+	<script src="../js/jquery-1.11.1.js"></script>
+	<script src="../js/add_cart.js"></script>
+	<script src="../fonts/font_1337982_3mjd8z175oo/iconfont.js"></script>
+	<title>加入购物车</title>
+</head>
+<body>
+	<div class="container">
+		<!-- header -->
+		<header id="header">
+			<div class="header">
+				<div class="head_right">
+					<ul>
+						<li class="drop_menu1">
+							<a href="#"><span>购物</span></a>
+							<div class="dropbox1">
+								<dl>
+									<dt>
+										<a href="#">产品类别</a>
+									</dt>
+									<dd>
+										<a href="skin_pro.html">基础护肤</a>
+									</dd>
+									<dd>
+										<a href="#">身体护理</a>
+									</dd>
+									<dd>
+										<a href="#">面膜</a>
+									</dd>
+									<dd>
+										<a href="#">男士系列</a>
+									</dd>
+									<dd>
+										<a href="#">洁面与卸妆</a>
+									</dd>
+									<dd>
+										<a href="#">美容工具</a>
+									</dd>
+									<dd>
+										<a href="#">防晒</a>
+									</dd>
+									<dd>
+										<a href="#">婴儿洗护</a>
+									</dd>
+									<dd>
+										<a href="#">彩妆</a>
+									</dd>
+									<dd>
+										<a href="#">面部底妆</a>
+									</dd>
+									<dd>
+										<a href="#">美甲</a>
+									</dd>
+									<dd>
+										<a href="#">优惠套装</a>
+									</dd>
+								</dl>
+								<dl>
+									<dt>
+										<a href="#">护肤系列</a>
+									</dt>
+									<dd>
+										<a href="#">绿茶精粹</a>
+									</dd>
+									<dd>
+										<a href="#">寒兰</a>
+									</dd>
+									<dd>
+										<a href="#">九重臻致</a>
+									</dd>
+									<dd>
+										<a href="#">火山岩泥</a>
+									</dd>
+									<dd>
+										<a href="#">济州石榴</a>
+									</dd>
+									<dd>
+										<a href="#">黑茶</a>
+									</dd>
+									<dd>
+										<a href="#">香榧舒缓</a>
+									</dd>
+									<dd>
+										<a href="#">白牡丹</a>
+									</dd>
+									<dd>
+										<a href="#">都市净化</a>
+									</dd>
+									<dd>
+										<a href="#">熔岩海水</a>
+									</dd>
+									<dd>
+										<a href="#">发酵豆</a>
+									</dd>
+									<dd>
+										<a href="#">海盐</a>
+									</dd>
+									<dd>
+										<a href="#">雪耳</a>
+									</dd>
+									<dd>
+										<a href="#">油菜花蜜</a>
+									</dd>
+									<dd>
+										<a href="#">济州温泉水</a>
+									</dd>
+									<dd>
+										<a href="#">菖蒲</a>
+									</dd>
+									<dd>
+										<a href="#">山茶花</a>
+									</dd>
+									<dd>
+										<a href="#">济州青麦</a>
+									</dd>
+									<dd>
+										<a href="#">芦荟</a>
+									</dd>
+									<dd>
+										<a href="#">生机展颜</a>
+									</dd>
+									<dd>
+										<a href="#">橄榄</a>
+									</dd>
+									<dd>
+										<a href="#">青苹果</a>
+									</dd>
+								</dl>
+								<dl class="menudl1">
+									<img src="../images/menu1.png" alt="">
+								</dl>
+							</div>
+						</li>
+						<li class="drop_menu2">
+							<a href="#">活动</a>
+							<div class="dropbox2">
+								<dl>
+									<!-- <dt>
+										<a href="#">彩妆</a>
+									</dt> -->
+									<dd>
+										<a href="#">彩妆排行榜</a>
+									</dd>
+									<dd>
+										<a href="#">会员感恩节</a>
+									</dd>
+									<dd>
+										<a href="#">拾色济州</a>
+									</dd>
+									<dd>
+										<a href="#">毛孔细致精华露体验装试用申领</a>
+									</dd>
+								</dl>
+								<dl>
+									<!-- <dt>
+										<a href="#">彩妆</a>
+									</dt> -->
+									<dd>
+										<a href="#">8月满赠利遇</a>
+									</dd>
+									<dd>
+										<a href="#">开学季</a>
+									</dd>
+									<dd>
+										<a href="#">火山家族</a>
+									</dd>
+									<dd>
+										<a href="#">2019积分累加制度新规</a>
+									</dd>
+								</dl>
+								<dl class="menudl2">
+									<img src="../images/menu2.png" alt="">
+								</dl>
+							</div>
+						</li>
+						<li class="drop_menu3">
+							<a href="#">风吟汇</a>
+							<div class="dropbox3">
+								<dl>
+									<!-- <dt><a href="#"></a></dt> -->
+									<dd>
+										<a href="#">热门评论</a>
+									</dd>
+									<dd>
+										<a href="#">农场游戏</a>
+									</dd>
+									<dd>
+										<a href="#">inni社交圈</a>
+									</dd>
+									<dd>
+										<a href="#">inni积分榜</a>
+									</dd>
+								</dl>
+							</div>
+						</li>
+						<li class="drop_menu4">
+							<a href="#">品牌故事</a>
+							<div class="dropbox4">
+								<dl>
+									<dt>
+										<a href="#">品牌简介</a>
+									</dt>
+									<dd>
+										<a href="#">品牌介绍</a>
+									</dd>
+									<dd>
+										<a href="#">公益项目</a>
+									</dd>
+									<dd>
+										<a href="#">悦诗风吟广告</a>
+									</dd>
+								</dl>
+								<dl>
+									<dt>
+										<a href="#">济州岛故事</a>
+									</dt>
+									<dd>
+										<a href="#">济州之家介绍</a>
+									</dd>
+									<dd>
+										<a href="#">济州治愈音乐</a>
+									</dd>
+								</dl>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="biglogo">
+					<img src="../images/logo1.png" alt="logo">
+				</div>
+				<div class="head_left">
+					<ul>
+						<li><a href="#">欢迎：小可爱</a></li>
+						<li><a href="../html/index.html">退出</a></li>
+						<li><a href="#"><img src="../images/search.png" alt=""></a></li>
+						<li><a href="#"><img src="../images/cartd.png" alt=""></a><span class="number">1</span></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+
+		<!-- 模态框 -->
+		<div class="cart_wrap">
+			<div class="right_box">
+				<h3>
+					<a href="../html/pro_index.html">
+						<span class="close"></span>
+					</a>
+					<span class="account">1</span>
+				</h3>
+				<div class="pro_account">
+					<img src="../images/1000018280_m.png" alt="">
+					<div class="top">
+						<span>绿茶润唇膏</span>
+						<span class="small_close"></span>
+					</div>
+					<div class="bottom">
+						<div class="total_account">
+							<span class="minus">-</span>
+							<input type="number" value="1" class="number1">
+							<span class="plugs">+</span>
+						</div>
+						<span class="price">￥65.0</span>
+					</div>
+				</div>
+				<div class="cart_bottom">
+					<span class="totle_price1">总计/￥65.0</span>
+					<a href="#">
+						<span>清空</span>
+					</a>
+					<a href="../html/pay_for.html">
+						<span>结算</span>
+						<img src="../images/go.png" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- main -->
+		<div class="content_wrap">
+			<div class="content">
+				<!-- HOME -->
+				<div class="nav_top">
+					<p>
+						<span></span>
+						<span>><a href="#">&nbsp;&nbsp;&nbsp;商城</a></span>
+						<span>><a href="#">&nbsp;&nbsp;&nbsp;产品类别</a></span>
+						<span>><a href="#">&nbsp;&nbsp;&nbsp;基础护理</a></span>
+						<span>><a href="#">&nbsp;&nbsp;&nbsp;唇部护理</a></span>
+					</p>
+				</div>
+
+				<!-- pro_title -->
+				<div class="pro_title">
+					<strong>绿茶润唇膏</strong>
+					<span class="line">3.6g</span>
+				</div>
+
+				<!-- pro_detail -->
+				<div class="pro_detail">
+					<div class="detail_left">
+						<h4>
+							<img src="../images/1000018280_l.png" alt="">
+						</h4>
+						<div class="pro_share">
+							<span>分享到：</span>
+							<span class="QQ">
+								<svg class="icon" aria-hidden="true">
+								    <use xlink:href="#iconqq"></use>
+								</svg>
+							</span>
+							<span class="weibo">
+								<svg class="icon" aria-hidden="true">
+								    <use xlink:href="#iconweibo1"></use>
+								</svg>
+							</span>
+							<span class="Zone">
+								<svg class="icon" aria-hidden="true">
+								    <use xlink:href="#iconQQkongjian"></use>
+								</svg>
+							</span>
+							<span class="Weixin">
+								<svg class="icon" aria-hidden="true">
+								    <use xlink:href="#iconweixin"></use>
+								</svg>
+							</span>
+						</div>
+					</div>
+
+					<div class="detail_right">
+						<div class="pro_intro">
+							<p>
+								蕴含济州绿茶成分，呵护滋养双唇的润唇膏
+							</p>
+						</div>
+
+						<div class="about_pro">
+							<dl>
+								<dt>
+									<span class="one">
+									商品编码
+								   </span>
+								</dt>
+								<dd>1000018280</dd>
+							</dl>
+							<dl>
+								<dt>
+									<span class="two">
+										状态
+									</span>
+								</dt>
+								<dd>销售中</dd>
+							</dl>
+							<dl>
+								<dt>
+									<span class="three">
+										市场价
+									</span>
+								</dt>
+								<dd class="market_price">￥65.0</dd>
+							</dl>
+							<dl>
+								<dt class="dlfour">
+									<span class="four">
+										购物积分
+									</span>
+									<span class="question">
+									</span>
+									
+								</dt>
+								<dd class="shop_score">100% 65P</dd>
+							</dl>
+							<dl>
+								<dt>
+									<span class="five">
+										产地
+									</span>
+								</dt>
+							</dl>
+							<dl>
+								<dt>
+									<span class="six">
+										购买数量
+									</span>
+								</dt>
+								<dd>
+									<input type="number" name="" value="1">
+									<span class="btn_up"></span>
+									<span class="btn_down"></span>
+									个
+								</dd>
+							</dl>
+						</div>
+
+						<div class="pro_price">
+							<dl>
+								<dt>
+									<span class="totle">总计</span>
+								</dt>
+								<dd class="totle_price">￥65.0</dd>
+							</dl>
+						</div>
+
+						<div class="add_box">
+							<div class="shop_address">
+								地址：<span>上海市市辖区黄浦区</span>
+								<div class="address_index">
+									<ul>
+										<li class="province_btn">上海市</li>
+										<li class="city_btn">市辖区</li>
+										<li class="county_btn">黄浦区</li>
+									</ul>
+									<div class="province">
+										<span>北京市</span>
+										<span>天津市</span>
+										<span>河北省</span>
+										<span>山西省</span>
+										<span>内蒙古</span>
+										<span>辽宁省</span>
+										<span>吉林省</span>
+										<span>黑龙江</span>
+										<span class="red">上海市</span>
+										<span>江苏省</span>
+										<span>浙江省</span>
+										<span>安徽省</span>
+										<span>福建省</span>
+										<span>江西省</span>
+										<span>山东省</span>
+										<span>河南省</span>
+										<span>湖北省</span>
+										<span>湖南省</span>
+										<span>广东省</span>
+										<span>广西</span>
+										<span>海南省</span>
+										<span>重庆市</span>
+										<span>四川省</span>
+										<span>贵州省</span>
+										<span>云南省</span>
+										<span>西藏</span>
+										<span>陕西省</span>
+										<span>甘肃省</span>
+										<span>青海省</span>
+										<span>宁夏</span>
+										<span>新疆</span>
+										<span>中国台湾</span>
+										<span>中国香港</span>
+										<span>中国澳门</span>
+									</div>
+									<div class="city">
+										<span class="red">市辖区</span>
+										<span>县</span>
+									</div>
+									<div class="county">
+										<span class="red">黄浦区</span>
+										<span>卢湾区</span>
+										<span>徐汇区</span>
+										<span>长宁区</span>
+										<span>静安区</span>
+										<span>普陀区</span>
+										<span>闸北区</span>
+										<span>虹口区</span>
+										<span>杨浦区</span>
+										<span>闵行区</span>
+										<span>宝山区</span>
+										<span>嘉定区</span>
+										<span>浦东新区</span>
+										<span>金山区</span>
+										<span>松江区</span>
+										<span>青浦区</span>
+										<span>南汇区</span>
+										<span>奉贤区</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+
+						<div class="other_oper">
+							<div>
+								<a href="#">
+									<img src="../images/btn_buyNow.gif" alt="">
+								</a>
+								<a href="#">
+									<img src="../images/btn_shoppingCart.gif" alt="">
+								</a>
+								<a href="#">
+									<img src="../images/btn_wish.gif" alt="">
+								</a>
+							</div>
+							<dl>
+								<dt>
+									<img src="../images/txt_buysatisfy.gif" alt="">
+								</dt>
+								<dd>
+									分享小清新：<strong>0</strong>&nbsp;条
+								</dd>
+								<dd>
+									用户评价：<strong>0</strong>&nbsp;条
+								</dd>
+							</dl>
+						</div>
+
+					</div>
+				</div>
+
+				<!-- pro_info -->
+				<div class="pro_info">
+					<div class="info_top">
+						<p>请登录网站来查看您所有的优惠券和其他优惠内容。</p>
+						<a href="#">
+							<span>登录</span>
+						</a>
+					</div>
+					<div class="info_down">
+						<h5>
+							<img src="../images/title_pdtSumarry.gif" alt="">
+						</h5>
+						<table>
+							<tbody>
+								<tr>
+									<th>商品名称</th>
+									<td>绿茶润唇膏</td>
+									<th>类型</th>
+									<td>唇部护理</td>
+								</tr>
+								<tr>
+									<th>适用肤质</th>
+									<td>所有肌肤</td>
+									<th>容量</th>
+									<td>3.6g</td>
+								</tr>
+								<tr>
+									<th>适用部位</th>
+									<td></td>
+									<th>主要功效</th>
+									<td></td>
+								</tr>
+								<tr>
+									<th>使用注意事项</th>
+									<td colspan="4"></td>
+								</tr>
+								<tr>
+									<th>产品成分</th>
+									<td colspan="4"></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+
+				<!-- pro_show_details -->
+				<div class="pro_show_box">
+					<div class="pro_show_top">
+						<ul>
+							<li>
+								<a href="#">
+									<img src="../images/productDetail_tab1_on.gif" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../images/productDetail_tab2.gif" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../images/productDetail_tab3.gif" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../images/productDetail_tab4.gif" alt="">
+								</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="pro_pic">
+						<div class="big_pic">
+							<img src="../images/1000018280_2.jpg" alt="">
+						</div>
+						<div class="side_pro">
+							<h5>
+								<img src="../images/title_cateBest.png" alt="">
+							</h5>
+							<div class="list">
+								<dl>
+									<dt><img src="../images/1000008681_m.png" alt=""></dt>
+									<dd>
+										<a href="#">
+										    <p>雪耳晶透新妍沁润面霜 </p>
+									    </a>
+								    </dd>
+									<dd>
+										<a href="#">
+										    <span>￥260.0</span>
+									    </a>
+								    </dd>
+								</dl>
+								<dl>
+									<dt><img src="../images/1000007221_m.png" alt=""></dt>
+									<dd>
+										<a href="#">
+										    <p>绿茶精萃矿物质喷雾 补水保湿  </p>
+									    </a>
+								    </dd>
+									<dd>
+										<a href="#">
+										    <span>￥100.0</span>
+									    </a>
+								    </dd>
+								</dl>
+								<dl>
+									<dt><img src="../images/1000007743_m.png" alt=""></dt>
+									<dd>
+										<a href="#">
+										    <p>济州石榴活妍焕采保湿乳 红石榴 烟酰胺  </p>
+									    </a>
+								    </dd>
+									<dd>
+										<a href="#">
+										    <span>￥160.0</span>
+									    </a>
+								    </dd>
+								</dl>
+							</div>
+							<div class="corner">
+								<img src="../images/BG_paper.gif" alt="">
+							</div>
+						</div>
+
+					</div>
+
+
+				</div>
+
+				<!-- sharecute -->
+				<div class="share_box">
+					<div class="share_box_top">
+						<ul>
+							<li>
+								<a href="#">
+									<img src="../images/productDetail_tab1.gif" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../images/productDetail_tab2_on.gif" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../images/productDetail_tab3.gif" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../images/productDetail_tab4.gif" alt="">
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="share_content">
+						<h5>
+							<img src="../images/title_photoReview.gif" alt="">
+							<strong>
+								(<span class="red">0</span>)条
+							</strong>
+						</h5>
+						<div class="order_share">
+							<ul>
+								<li>
+									<a href="#">
+										<span>
+											按最新顺序排列&nbsp;&nbsp;<span class="expand_btn"></span>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span>
+											按点击数排列
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span>
+											只看最佳
+										</span>
+									</a>
+								</li>
+							</ul>
+							<img src="../images/noPhotoReview.gif" alt="">
+						</div>
+					</div>
+					<div class="share_bottom">
+						<img src="../images/btn_buyReviewAll.gif" alt="">
+						<img src="../images/btn_buyReviewWrite.gif" alt="">
+					</div>
+				</div>
+
+				<!-- custom_satisify -->
+				<div class="custom_say_box">
+
+					<div class="custom_top">
+						<ul>
+							<li>
+								<a href="#">
+									<img src="../images/productDetail_tab1.gif" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../images/productDetail_tab2.gif" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../images/productDetail_tab3_on.gif" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../images/productDetail_tab4.gif" alt="">
+								</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="custom_content">
+						<h5>
+							<img src="../images/title_buyReview.gif" alt="">
+							<strong>
+								(<span class="red">0</span>)条
+							</strong>
+						</h5>
+						<img src="../images/noBuyReview.gif" alt="">
+					</div>
+
+					<div class="custom_bottom">
+						<img src="../images/btn_buyReviewWrite.gif" alt="">
+						<p>- 只有在官网商城购买商品的会员才有权发表用户评价</p>
+						<p>- 发表用户评价，可获赠30绿色积分 (仅限1日1次)</p>
+						<p>- 删除用户评价的同时，绿色积分也会有相应减少</p>
+					</div>
+				</div>
+
+				<!-- something for custom -->
+				<div class="shop_text_box">
+					<div class="shop_box_top">
+						<ul>
+							<li>
+								<a href="#">
+									<img src="../images/productDetail_tab1.gif" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../images/productDetail_tab2.gif" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../images/productDetail_tab3.gif" alt="">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="../images/productDetail_tab4_on.gif" alt="">
+								</a>
+							</li>
+						</ul>
+					</div>
+					<img src="../images/txt_caution_170615.png" alt="">
+				</div>
+
+			</div>
+			<!-- content -->
+
+		</div>
+		<!-- main -->
+
+
+		<!-- footer -->
+		<div class="footer">
+			<div id="footer">
+            	<div class="left">
+
+            		<div class="left_top">
+            			<img src="../images/logo.png" alt="">
+            		</div>
+
+            		<div class="left_middle">
+            			<span></span>
+            			<span class="wx"></span>
+            			<img src="../images/wx.png" alt="">
+            			<span></span>
+            			<span>专卖店导航</span>
+            			<span>探店指南</span>
+            		</div>
+
+            		<div class="left_down">
+            			<span></span>
+            			<span>copyright@2011amorerepacific corporation.</span><br>
+            			<span>All rights reserved</span>
+            		</div>
+            	</div>
+
+            	<div class="right">
+            		<div class="right_one">
+            			<dl>
+            				<dt>联系我们</dt>
+            				<dd>订单咨询热线:021-61255625</dd>
+            				<dd>工作时间：09:00-21:00</dd>
+            				<dd>品牌服务热线：400-920-9238</dd>
+            				<dd>服务时间：09:00-21:00(不含国定假日)</dd>
+            				<dd>客服邮件：innisfree@innisfree.cn</dd>
+            			</dl>
+            		</div>
+            		<div class="right_two">
+            			<dl>
+            				<dt>会员中心</dt>
+            				<dd><a href="#">加入会员</a></dd>
+            				<dd><a href="#">会员制度</a></dd>
+            				<dd><a href="#">互动游戏</a></dd>
+            				<dd><a href="#">我的主页</a></dd>
+            				<dd><a href="#">每日签到</a></dd>
+            			</dl>
+            		</div>
+            		<div class="right_three">
+            			<dl>
+            				<dt>客服中心</dt>
+            				<dd><a href="#">公告板</a></dd>
+            				<dd><a href="#">使用说明</a></dd>
+            				<dd><a href="#">在线咨询</a></dd>
+            				<dd><a href="#">Q&A留言板</a></dd>
+            				<dd><a href="#">FAQ</a></dd>
+            			</dl>
+            		</div>
+            		<a href="#">
+            			<img src="../images/ico_footerMark.png" alt="" width="20px" height="20px">
+            			<span>泸公安网安备&nbsp;31010602000985</span>
+            		</a>
+            		<span>网站使用条款&nbsp;泸ICP备11011083</span>
+            	</div>
+            	<!-- </div> -->
+            </div>	
+        </div>
+        <!-- footer -->
+
+	</div>
+	<!-- container -->
+</body>
+</html>
